@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 align="center">{{ title }}</h2>
+{% for user in crew %}
+<p>{{ user }} - Каюта № {{ loop.index }} {% if loop.index == 1 %} - капитан корабля {% endif %}</p>
+{% endfor %}
+{% endblock %}

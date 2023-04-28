@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 align="center">{{ title }}</h2>
+{% if age < 21 %}
+    {% if sex == 'male' %}
+    {% set bg_col = '#FF9A9A' %}
+    {% else %}
+    {% set bg_col = '#9B238A' %}
+    {% endif %}
+{% else %}
+    {% if sex == 'male' %}
+    {% set bg_col = '#000000' %}
+    {% else %}
+    {% set bg_col = '#F6F022' %}
+    {% endif %}
+{% endif %}
+<table class="table">
+    <thead>
+    <tr class="table-secondary">
+        <th scope="col" class="col-1"><p align="center">Цвет стены</p></th>
+        <th scope="col" class="col-1"><p align="center">Эмблема</p></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td style="background-color: {{ bg_col }};"></td>
+      <td>{% if age < 21%} <img src="/static/img/child.png"/> {% else %} <img src="/static/img/adult.png"/> {% endif %}</td>
+    </tr>
+    </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,13 @@
+h4 {
+    color: gray;
+    padding-left: 20px;
+}
+.branded {
+background-image: url('/static/img/MARS-2-7.png');
+background-repeat: no-repeat;
+padding-left: 155px;
+display: block;
+}
+th, td{
+width: 50%
+}

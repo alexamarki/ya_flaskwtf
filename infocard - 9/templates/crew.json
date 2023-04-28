@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Jake",
+    "surname": "Camerthorough",
+    "link": "https://static.standard.co.uk/2021/06/07/12/erik-jan-leusink-IbPxGLgJiMI-unsplash.jpg?width=968&auto=webp&quality=50&crop=968%3A645%2Csmart",
+    "professions": ["геолог", "биотехнолог", "астролог"]
+  },
+  {
+    "name": "Cate",
+    "surname": "Whitecliff",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg",
+    "professions": ["программист", "художник", "строитель"]
+  },
+  {
+    "name": "Max",
+    "surname": "Wayne",
+    "link": "https://images.unsplash.com/photo-1615789591457-74a63395c990?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9tZXN0aWMlMjBjYXR8ZW58MHx8MHx8&w=1000&q=80",
+    "professions": ["физик-теоретик", "пилот"]
+  },
+  {
+    "name": "John",
+    "surname": "Adams",
+    "link": "https://cdn.shopify.com/s/files/1/1832/0821/files/catshark.jpg?v=1649869148",
+    "professions": ["зоолог", "ботаник"]
+  },
+  {
+    "name": "Robert",
+    "surname": "Willow",
+    "link": "https://www.hartz.com/wp-content/uploads/2022/04/small-dog-owners-1.jpg",
+    "professions": ["пилот", "риэлтор"]
+  }
+]

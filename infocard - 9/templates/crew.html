@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set member = json | random %}
+<div align="center">
+    <h2>{{ member["name"] }} {{ member["surname"] }}</h2>
+    <img src='{{ member["link"] }}'/>
+    <p>{{ member["professions"] | sort | join(', ')}}</p>
+</div>
+{% endblock %}
