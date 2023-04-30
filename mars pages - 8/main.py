@@ -65,6 +65,7 @@ def gallery():
         if file:
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+        return redirect('/gallery')
     loaded_pics = [f for f in listdir('./static/img/additional_pics') if
                    isfile(join('./static/img/additional_pics', f))]
     return render_template('carousel.html', title='Пейзажи Марса', pics=loaded_pics, form=form)
